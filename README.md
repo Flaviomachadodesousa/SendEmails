@@ -30,10 +30,10 @@ Ele foi projetado para buscar usuários no banco de dados, renderizar mensagens 
 Crie um arquivo **`.env`** na raiz do projeto com as seguintes variáveis:
 
 # Banco de dados
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
+DB_HOST=localhost\
+DB_PORT=5432\
+DB_USER=seu_usuario\
+DB_PASSWORD=sua_senha\
 DB_NAME=seu_banco
 
 # SMTP
