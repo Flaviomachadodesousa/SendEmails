@@ -16,12 +16,12 @@ Ele foi projetado para buscar usuários no banco de dados, renderizar mensagens 
 ---
 
 ## 📂 Estrutura do Projeto
-├── main.go # Arquivo principal
-├── models/ # Modelos do banco (Usuario, EmailStatus, etc.)
-├── templates/
-│ └── email.html # Template HTML do e-mail
-├── .env # Variáveis de ambiente (não versionar)
-└── README.md # Documenta
+├── main.go # Arquivo principal\
+├── models/ # Modelos do banco (Usuario, EmailStatus, etc.)\
+├── templates/\
+│ └── email.html # Template HTML do e-mail\
+├── .env # Variáveis de ambiente (não versionar)\
+└── README.md # Documenta\
 
 ---
 
@@ -52,8 +52,8 @@ go run main.go # Execute o projeto
 
 ## 📬 Funcionamento
 
-1.O sistema conecta ao banco de dados PostgreSQL.
-2.Carrega os usuários da tabela usuarios.
-3.Para cada usuário, renderiza o template HTML (templates/email.html).
-4.Envia os e-mails em paralelo usando múltiplos workers.
-5.Registra o status de cada envio na tabela email_status.
+- O sistema conecta ao banco de dados PostgreSQL.
+- Carrega os usuários da tabela usuarios.
+- Para cada usuário, renderiza o template HTML (templates/email.html).
+- Envia os e-mails em paralelo usando múltiplos workers.
+- Registra o status de cada envio na tabela email_status.
