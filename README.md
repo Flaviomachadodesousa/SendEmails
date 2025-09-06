@@ -21,7 +21,7 @@ Ele foi projetado para buscar usuários no banco de dados, renderizar mensagens 
 ├── templates/\
 │ └── email.html # Template HTML do e-mail\
 ├── .env # Variáveis de ambiente (não versionar)\
-└── README.md # Documenta\
+└── README.md # Documenta
 
 ---
 
