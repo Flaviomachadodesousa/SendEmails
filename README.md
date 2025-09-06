@@ -37,9 +37,9 @@ DB_PASSWORD=sua_senha\
 DB_NAME=seu_banco
 
 # SMTP
-SMTP_HOST=smtp.seuprovedor.com
-SMTP_PORT=587
-SMTP_EMAIL=seuemail@provedor.com
+SMTP_HOST=smtp.seuprovedor.com\
+SMTP_PORT=587\
+SMTP_EMAIL=seuemail@provedor.com\
 SMTP_PASSWORD=suasenha
 
 # Workers
